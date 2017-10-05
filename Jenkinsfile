@@ -11,5 +11,10 @@ pipeline {
         echo 'Newstage2'
       }
     }
+    stage('print2') {
+      steps {
+        sh 'echo Hi'
+      }
+    }
   }
 }
